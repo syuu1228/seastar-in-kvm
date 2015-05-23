@@ -1,4 +1,4 @@
-# seastar-vm
+# seastar-in-kvm
 Create a VM for Seastar development environment
 
 ### Prerequire
@@ -9,7 +9,7 @@ yum install @virtualization
 yum install libguestfs-tools-c
 ```
 
-### Usage
+### How to build & run
 ```
 ./build.sh
 ./run.py -n -i ./seastar-dev.qcow2
