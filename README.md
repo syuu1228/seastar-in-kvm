@@ -14,6 +14,7 @@ yum install libguestfs-tools-c virt-install
 ### How to build & run
 ```
 ./build.sh
-./run.py -n -i ./seastar-dev.qcow2
+./register.sh
+virsh start seastar-dev && virsh console seastar-dev
 (Try login as 'seastar' after firstboot.sh finished, Fedora will ask new password for the user)
 ```
