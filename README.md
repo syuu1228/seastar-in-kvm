@@ -3,7 +3,7 @@ Create a VM for Seastar development environment
 
 ### Prerequire
 
-Fedora 21
+On Fedora 21:
 ```
 yum install @virtualization
 systemctl enable libvirtd
