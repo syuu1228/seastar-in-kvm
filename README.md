@@ -6,7 +6,9 @@ Create a VM for Seastar development environment
 Fedora 21
 ```
 yum install @virtualization
-yum install libguestfs-tools-c
+systemctl enable libvirtd
+systemctl start libvirtd
+yum install libguestfs-tools-c virt-install
 ```
 
 ### How to build & run
