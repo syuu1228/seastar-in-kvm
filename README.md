@@ -17,6 +17,13 @@ systemctl start libvirtd
 yum install libguestfs-tools-c virt-install
 ```
 
+### How to build & run
+```
+./build.sh
+./register.sh
+virsh start seastar-dev && virsh console seastar-dev
+(Try login as 'seastar' after firstboot.sh finished, Fedora will ask new password for the user)
+```
 
 ### Usage of the VM
 
